@@ -1,0 +1,153 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background: #FFFFFF;
+  color: rgba(0,0,0,0.95);
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+ul {
+	list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.container {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.header {
+	background: #EEEEEE;
+}
+
+.JSON-Visualizer {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: left;
+  
+}
+.JSON-Visualizer__textarea {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1em;
+  width: 100%;
+  min-height: 12em;
+  height: auto;
+  border: 1px solid #9d9fa2;
+  border-radius: 4px;
+}
+
+
+.JSON-Visualizer .button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 0 1em;
+  padding: 0.5em;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.JSON-Visualizer .buttonBlue {
+  background-color: #6889FF;
+  color: #FFFFFF;
+}
+.JSON-Visualizer .buttonBlue:hover {
+  background-color: #7FB2FF;
+}
+
+.JSON-Visualizer__result {
+	margin: 1em;
+	width: 100%;
+	padding: 1em 2em 1em 1em;
+	border-radius: 4px;
+	background-color: #FAFAFA;
+}
+
+
+.JSON-Visualizer__entry_invisible {
+
+    display:none;
+}
+
+.JSON-Visualizer__result > ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+	
+}
+
+
+.JSON-Visualizer__result  li {
+	border-bottom: 1px dashed rgba(0,0,0,0.1);
+	padding: 5px 0 1px 0;
+}
+
+.JSON-Visualizer__result  li:last-child {
+	border-bottom: none;
+
+}
+
+.JSON-Visualizer__result > ul:first-child{
+	padding: 0 10px 1em 10px;
+}
+
+
+.JSON-Visualizer__entry_red {
+	float: right;
+	color: red;
+	padding-right: 5px;
+	font-size: 0.9em;
+}
+
+.JSON-Visualizer__entry_blue {
+	color: #5677FC;
+}
+
+
+.fas {
+ width: 100%;
+ display: block;	
+ font-size: 1.1em;
+ color: #259B24;
+ padding-left: 5px;
+ background-color: #fcfcfc;
+}
+
+.fas::before {
+    padding-right: 20px;
+}
+
+.fas:hover {
+	cursor: pointer;
+}
